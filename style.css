@@ -57,8 +57,19 @@
     border-radius: 5px;
     border: none;
     font-weight: bolder;
+    align-items: center;
 }
-
+.btn-style{
+    gap: 30px;
+}
+.btnS{
+width: 18px;
+height: 18px;
+}
+.btnC{
+width: 18px;
+height: 18px;
+}
 
 
 /* banner style */
