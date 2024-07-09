@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans-font{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* header */
+.header{
+    background-image: url(images/developer.png),url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left top , right bottom;
+}
+/* nav bar */
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 226px;
+    margin-right: 230px;
+    margin-top: 50px;
+    align-items: center;
+
+}
+  .nav-title{
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+
+.ul-style{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items:center;
+}
+
+   
+ 
+.list-item{
+    color: rgb(71, 71, 71);
+    margin-right: 51px;
+    text-decoration: none;
+    
+}
+
+.btn{
+    background-color: rgb(253, 110, 10);
+    padding: 19px 35px 19px 35px;
+    font-family: Open Sans;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+}
+
+
+
+/* banner style */
+.banner{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 38px;
+    margin-left: 230px;
+    align-items: center;
+}
+.banner-content{
+    max-width: 580px;
+    font-family: Open Sans;
+    color:rgb(71, 71, 71) ;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-pic{
+    width: 580px;
+}
+
+/* shared style */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+    text-align: center;
+}
+.section-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+    text-align: center;
+}
+ .secondary-bg{
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    padding-top: 130px;
+    padding-left: 157px;
+    padding-bottom: 130px;
+    padding-right: 130px;
+    text-align: center;
+    margin-top: 130px;
+} 
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin:auto;
+}
+
+/* about items */
+.about-items{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 22.5px;
+    margin-right: 22.5px;
+}
+.about-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(117, 117, 117);
+
+}
+.about-item{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+}
+.inner-bg{
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+}
+/* skill style */
+.skill-container{
+display: flex;    
+gap: 24px;
+
+}
+.skills{
+    border-radius: 5px;
+    padding: 30px;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* resume style */
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+.resume-title{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0%;
+text-align: left;
+}
+.experience{
+
+}
+.ex-title{
+
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 25px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: left;
+}
+.ex-subtitle{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.ex-descrip{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.resume-button{
+    align-items: center;
+   text-align: center;
+}
+/* footer section */
+.footer{
+    background:rgb(255, 248, 243);
+    max-height: 780px;
+    display: flex;
+    gap: 117px;
+    padding:130px 230px 130px 230px;
+    
+
+}
+.footer-column{
+    width: 50%;
+
+}
+
+.comments{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.input-text{
+    width: 461px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+
+}
+.input-area{
+    border: none;
+    border-radius: 5px;
+    width: 461px;
+    height: 180px;
+}
+
+
